@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_AllegroRegistration</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>924c33b3-241c-4221-91a8-0308052c8d79</testCaseGuid>
+   <variable>
+      <defaultValue>'admin@wp.pl'</defaultValue>
+      <description></description>
+      <id>14eca57d-1357-4942-8d56-718b356b89e1</id>
+      <masked>false</masked>
+      <name>varLogin</name>
+   </variable>
+   <variable>
+      <defaultValue>'HaslodlaAdmina20'</defaultValue>
+      <description></description>
+      <id>7ef7d90e-57bc-46ed-a654-1f6c6f87543b</id>
+      <masked>false</masked>
+      <name>varPasswd</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://allegro.pl/rejestracja?origin_url=%2F'</defaultValue>
+      <description></description>
+      <id>ad0c4ef2-7a32-4c49-8aed-bd1eca0dff92</id>
+      <masked>false</masked>
+      <name>varUrl</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_AllegroRegistration_InvalidData</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>25adee91-272b-468e-91ad-d8e70408db9c</testCaseGuid>
+   <variable>
+      <defaultValue>'toniejestemail\r\n'</defaultValue>
+      <description></description>
+      <id>25c2dc72-fc85-4acd-8255-0dadcdde4d0d</id>
+      <masked>false</masked>
+      <name>varEmail</name>
+   </variable>
+   <variable>
+      <defaultValue>'atoniejestdobrehaslo'</defaultValue>
+      <description></description>
+      <id>4e32d27a-7d67-4b9f-adfd-68d231ede39e</id>
+      <masked>false</masked>
+      <name>varPassword</name>
+   </variable>
+</TestCaseEntity>

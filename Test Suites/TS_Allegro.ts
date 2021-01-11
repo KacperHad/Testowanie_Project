@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Allegro</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>17cb0e29-c876-4ac2-a9e1-d927778a085b</testSuiteGuid>
+   <testCaseLink>
+      <guid>72c0f5a0-bd88-4a69-b4e1-88268a486665</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_AllegroRegistration</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>14eca57d-1357-4942-8d56-718b356b89e1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7ef7d90e-57bc-46ed-a654-1f6c6f87543b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ad0c4ef2-7a32-4c49-8aed-bd1eca0dff92</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7d74fa16-5391-4786-9242-5760c4a03a61</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC_AllegroRegistration_InvalidData</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2b236057-115d-43cd-ae08-be1b3551d4ae</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Allegro_Logowanie</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>2b236057-115d-43cd-ae08-be1b3551d4ae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>﻿Login</value>
+         <variableId>25c2dc72-fc85-4acd-8255-0dadcdde4d0d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2b236057-115d-43cd-ae08-be1b3551d4ae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>4e32d27a-7d67-4b9f-adfd-68d231ede39e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
